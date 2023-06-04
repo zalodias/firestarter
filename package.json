@@ -1,0 +1,18 @@
+{
+  "name": "firestarter",
+  "version": "1.0.0",
+  "description": "A minimal starter template for the web",
+  "main": "index.js",
+  "bin": {
+    "firestarter": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalodias/firestarter.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zalodias/firestarter/issues"
+  },
+  "homepage": "https://github.com/zalodias/firestarter#readme"
+}
