@@ -1,5 +1,5 @@
 {
-  "name": "firestarter",
+  "name": "@zalodias/firestarter",
   "version": "1.0.0",
   "description": "A minimal starter template for the web",
   "main": "index.js",
