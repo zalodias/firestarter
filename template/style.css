@@ -13,38 +13,25 @@
     line-height: calc(1em + 8px);
   }
 
-  html {
+  :where(html) {
     height: 100%;
   }
 
-  body {
+  :where(body) {
     min-height: 100%;
     font-family: system-ui;
   }
 
-  img,
-  picture,
-  video,
-  canvas,
-  svg {
+  :where(img, picture, video, canvas, svg) {
     display: block;
     max-inline-size: 100%;
   }
 
-  input,
-  button,
-  textarea,
-  select {
+  :where(input, button, textarea, select) {
     font: inherit;
   }
 
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  :where(p, h1, h2, h3, h4, h5, h6) {
     overflow-wrap: break-word;
   }
 }
