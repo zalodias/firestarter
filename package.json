@@ -1,6 +1,6 @@
 {
   "name": "@zalodias/firestarter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A minimal starter template for the web",
   "main": "index.js",
   "bin": {
