@@ -1,4 +1,4 @@
-@layer base, layout, theme;
+@layer base, layout;
 
 @layer base {
   *,
@@ -15,6 +15,8 @@
 
   :where(html) {
     block-size: 100%;
+    color-scheme: light dark;
+    font-family: system-ui;
 
     @media (prefers-reduced-motion: no-preference) {
       scroll-behavior: smooth;
@@ -23,7 +25,6 @@
 
   :where(body) {
     min-block-size: 100%;
-    font-family: system-ui;
   }
 
   :where(img, picture, video, canvas, svg) {
@@ -48,11 +49,5 @@
     padding: var(--layout-container-padding);
     max-inline-size: var(--layout-container-inline-size);
     margin-inline: auto;
-  }
-}
-
-@layer theme {
-  :root {
-    color-scheme: light dark;
   }
 }
