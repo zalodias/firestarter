@@ -14,7 +14,7 @@
   }
 
   :where(html) {
-    height: 100%;
+    block-size: 100%;
 
     @media (prefers-reduced-motion: no-preference) {
       scroll-behavior: smooth;
@@ -22,7 +22,7 @@
   }
 
   :where(body) {
-    min-height: 100%;
+    min-block-size: 100%;
     font-family: system-ui;
   }
 
@@ -43,10 +43,10 @@
 @layer layout {
   body {
     --layout-container-padding: 16px;
-    --layout-container-width: 1280px;
+    --layout-container-inline-size: 1280px;
 
     padding: var(--layout-container-padding);
-    max-width: var(--layout-container-width);
+    max-inline-size: var(--layout-container-inline-size);
     margin-inline: auto;
   }
 }
